@@ -8,9 +8,13 @@ using OpcTools;
 
 
 string IpAddress = "192.168.1.51";          // OPC Server IP Address
+
 int Port = 48010;                           // OPC Server Port
+
 string SessionName = "Session Name";        // Session Name
+
 string DefaultPrefix = "ns=2;s=Tags./";     // Item ID Prefix
+
 int Timeout = 1000;                         // Timeout
 
 var Client = new OpcClient(IpAddress, Port, DefaultPrefix, SessionName, Timeout);
