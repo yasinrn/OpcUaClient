@@ -1,6 +1,9 @@
 # OpcUaClient
 Read and Write data with opc ua
 
+
+Shuold be install OPCFoundation.NetStandard.Opc.Ua.Client
+
 using OpcTools;
 
 
